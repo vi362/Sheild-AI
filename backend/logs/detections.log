@@ -13,3 +13,5 @@
 2025-11-15 13:35:10 - GET /product/12345 HTTP/1.1 Host: www.ecommerce.com Referer:https://www.ecommerce.com/products?category=electronics&page=2 - valid
 2025-11-15 13:36:56 - GET /search?q=%27%20OR%20%271%27%3D%271 HTTP/1.1 Host: www.example.com - malicious(ML)
 2025-11-15 13:41:56 - GET /search?q=\x27\x20OR\x20\x31\x3D\x31 HTTP/1.1 Host: www.example.com - malicious(ML)
+2025-11-15 15:25:49 - GET /search?q=\x27\x20OR\x20\x31\x3D\x31 HTTP/1.1 Host: www.example.com - malicious(ML)
+2025-11-15 15:26:09 - GET /search?q=%27%20OR%20%271%27%3D%271 HTTP/1.1 Host: www.example.com - malicious(ML)
